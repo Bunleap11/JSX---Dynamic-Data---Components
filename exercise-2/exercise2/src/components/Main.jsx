@@ -1,17 +1,7 @@
-import React from "react";
-
-function Header(){
-  return(
-    <header className="block">
-      <h2>Welcome to this course!</h2>
-    </header>
-  )
-}
-function App() {
+import React from 'react'
+const Main = () => {
   return (
-    <>
-      <Header />  
-      <main className="block">
+    <main className="block">
         <p>
           React (also known as React.js or ReactJS) is a free and open-source
           front-end JavaScript library for building user interfaces based on
@@ -23,10 +13,9 @@ function App() {
           often rely on libraries for routing and other client-side
           functionality.
         </p>
-        <p>You can find the React doc at https://react.dev/</p>
-      </main>
-    </>
-  );
+        
+    </main>
+  )
 }
 
-export default App;
+export default Main
